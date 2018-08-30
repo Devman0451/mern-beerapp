@@ -1,0 +1,34 @@
+.Button {
+    font-size: 1.2rem; 
+    border: none;
+    padding: .4rem 1.5rem;
+    transition: all 300ms ease-in-out;
+}
+
+.Primary, .Favorite {
+    background-color: #3ec2ff;
+    color: white;
+}
+
+.Favorite, .Unfavorite { 
+    align-self:flex-start;
+}
+
+.Unfavorite { 
+    background-color: white;
+    color: #3ec2ff;
+    border: 1px #3ec2ff solid;
+}
+
+.Primary:hover, .Favorite:hover, .Unfavorite:hover {
+    background-color: #64ceff;
+    color: white;
+    cursor: pointer;
+}
+
+.Primary:disabled {
+    background-color: #C7C6C6;
+    cursor: not-allowed;
+    border: 1px solid #ccc;
+    color: #888;
+}

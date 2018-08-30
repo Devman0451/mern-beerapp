@@ -1,0 +1,15 @@
+a {
+    color: inherit;
+    text-decoration: none;
+    transition: all 200ms ease-in-out;
+}
+
+a:visited, a:hover, a:active {
+    color: inherit;
+  }
+
+a:hover {
+    -webkit-transform: scale(1.05);
+    -ms-transform: scale(1.05);
+    transform: scale(1.05);
+}

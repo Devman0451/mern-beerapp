@@ -1,0 +1,16 @@
+.NavigationItem {
+    padding: 0 10px;
+}
+
+.NavigationItem a {
+    text-decoration: none;
+}
+
+@media screen and (max-width: 500px) {
+    .NavigationItem {
+        border-bottom: 1px solid #3ec2ff;
+        padding: 5px 10px;
+        font-size: 1.4rem;
+        
+    }
+}

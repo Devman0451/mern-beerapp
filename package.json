@@ -1,0 +1,19 @@
+{
+  "name": "beerapp-fullstack",
+  "version": "1.0.0",
+  "description": "Fullstack MERN app\u001b[D\u001b[C\u001b[C\u001b[D\u001b[",
+  "main": "app.js",
+  "scripts": {
+    "server": "nodemon app.js",
+    "client": "npm start --prefix client",
+    "dev": "concurrently \"npm run server\" \"npm run client\""
+  },
+  "author": "Justin Myers",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "concurrently": "^3.6.1",
+    "express": "^4.16.3",
+    "mongoose": "^5.2.9"
+  }
+}

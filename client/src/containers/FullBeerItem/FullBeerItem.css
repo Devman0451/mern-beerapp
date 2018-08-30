@@ -1,0 +1,39 @@
+.BeerItem {
+    display: flex;
+    justify-content: space-around;
+}
+
+.BeerText {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+@media screen and (max-width: 800px) {
+    .BeerText {
+        width: 60%;
+    }
+}
+
+.BeerDescription > h5 {
+    color: #3ec2ff;
+    font-size: 1.2rem;
+    margin-top: 0.5rem;
+}
+
+.BeerDescription > p {
+    margin: 0.5rem 0;
+}
+
+.ExtraInfo {
+    font-weight: bold;
+}
+
+.ExtraInfo span {
+    color: #3ec2ff;
+}
+
+hr {
+    margin-bottom: 0.5rem;
+}

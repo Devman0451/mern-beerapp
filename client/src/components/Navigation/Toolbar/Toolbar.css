@@ -1,0 +1,19 @@
+.Toolbar {
+    background-color: #3ec2ff;
+    padding: 1rem;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    color: white;
+    font-size: 1.4rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+@media screen and (max-width: 500px) {
+    .DesktopOnly {
+        display: none;
+    }
+}
