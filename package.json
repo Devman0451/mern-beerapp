@@ -4,6 +4,8 @@
   "description": "Fullstack MERN app\u001b[D\u001b[C\u001b[C\u001b[D\u001b[",
   "main": "app.js",
   "scripts": {
+    "client-install": "npm install --prefix client",
+    "start": "node server.js",
     "server": "nodemon app.js",
     "client": "npm start --prefix client",
     "dev": "concurrently \"npm run server\" \"npm run client\"",
